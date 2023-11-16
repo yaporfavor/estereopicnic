@@ -1,0 +1,594 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+
+}
+
+.logo img {
+    margin-top: 0%;
+    width: 450px; 
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    
+}
+
+.navegador{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 45%;
+}
+
+.navegador a{
+    color: rgb(0, 183, 255);
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    width: 60%;
+}
+
+#fondo{
+
+    background-image: url(../Img/Tira\ larga_Mesa\ de\ trabajo\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    padding: 180px 0 0 0;
+
+}
+
+
+.estereo-picnic figure{
+display: flex;
+justify-content: center ;
+
+}
+
+
+.artistas-uni{
+
+    width: 40%;
+    padding-top: 40px;
+}
+   
+.artistas{
+ display: flex; 
+ justify-content: space-around; align-items: center; flex-wrap: wrap;
+ 
+    
+}
+
+.artistas-uni img{
+    width: 100%;
+}
+
+.artistas-uni figure{
+    width: 30%;
+    display: inline;
+}
+
+
+
+
+
+.patrocinadores img{
+    width: 70%;
+}
+
+.patrocinadores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 530px 0 20px 0;
+}
+
+#fondo-dos{
+    
+    background-image: url(../Img/Otra\ parte.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 0 70px 0;
+}
+
+.logo-en{
+display: flex;
+justify-content: center;
+
+}
+
+.logo-en img{
+    width: 850px;
+}
+
+.tipos-en{
+
+display: flex;
+justify-content: space-around;
+align-items: center ;
+flex-wrap: wrap;
+
+}
+
+
+.general{
+padding: 25px 100px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+}
+
+.cont-uno{
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 198px;
+    background-color: aqua;
+    border-radius: 20px;
+    box-shadow: 0px 0 10px 10px rgba(78, 218, 225, 0.7);
+    
+}
+
+.general-logo img{
+    width: 89%;
+}
+
+.vip-logo img{
+    width: 89%;
+}
+
+
+.general figure{
+    display: flex;
+    justify-content: center;
+}
+
+
+.boton a{
+    
+        display: inline-block;
+        background-color: rgb(231, 7, 201);
+        color: azure;
+        padding: 6px 10px;
+        text-decoration: none;
+        border-radius: 30px;
+        font-size: 25px;
+        box-shadow: 0px 0 5px 5px rgba(225, 78, 193, 0.7);
+          
+}
+
+.parrafo{
+    padding-top: 3%;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.memo{ 
+    height: 1000px;
+}
+.logo-arbol img{
+    width: 100%;
+    padding: 0 0 0 0;
+}
+
+
+
+.astro img{
+    width: 1264px;
+    padding-bottom: 25%;
+}
+
+video{ 
+    width: 100%;
+    
+}
+
+#merca{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.cont{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: end;
+    padding-bottom: 12%;
+
+    
+    
+
+}
+
+
+.boton-un a{
+    display: inline-block;
+    background-color: rgb(231, 7, 201);
+    color: azure;
+    padding: 6px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 30px;
+    box-shadow: 0px 0 10px 10px rgba(225, 78, 193, 0.7);
+
+}
+
+.volver a{
+    display: inline-block;
+    background-color: rgb(231, 7, 201);
+    color: azure;
+    padding: 6px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 30px;
+    box-shadow: 0px 0 10px 10px rgba(225, 78, 193, 0.7);
+   
+}
+
+
+
+#final{
+   
+   background-image: url(../Img/astronauntas\ fondo\ blanco_Mesa\ de\ trabajo\ 1.jpg) ;
+   background-repeat: no-repeat;
+   background-size: 100%;
+
+}
+
+.iconos{
+    display: flex;
+justify-content: center;
+align-items: center;
+
+padding: 2px 20px 0 20px ;}
+
+
+.logoarribaderedes{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.logoarribaderedes img {
+width: 500px;
+display: flex;
+align-items: center;
+}
+
+.textodefooter{
+padding: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+ }
+
+ .navfooter {
+
+margin-top: 2%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(212, 214, 213);
+ }
+
+
+ .navfooter2{
+  
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 45%;
+ }
+
+ .navfooter2 li{
+    color: rgb(95, 96, 97);
+    font-weight: bold;
+    font-size: 30px;
+    width: 60%;
+ }
+
+ .patrocinadores2{
+background-color: rgb(129, 127, 124);
+display: flex;
+justify-content: center;
+ }
+
+.navfooter a{
+text-decoration: none;
+color: rgb(95, 96, 97);
+
+}
+
+
+.navfooter img{
+width: 500px;
+
+}
+
+.patrocinadores2 img {
+
+    width: 1000px;
+}
+
+
+
+.iconos img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 2px 20px 0 20px ;
+
+
+
+}
+
+
+
+.textodefooter p {font-size: 30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+
+    .parrafo{font-size: 15px;}
+
+    .memo{height: 400px;} 
+   
+   
+    .logo-en img{
+        width: 500px;
+    }
+    
+    .logo img {
+        padding: 10px 20px 0 20px;
+        width: 300px;
+        
+      }
+    
+      .navegador a{
+        color: rgb(0, 183, 255);
+        font-weight: bold;
+        font-size: 14px;
+        text-decoration: none;
+        width: 60%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 80px;
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        top: 0;
+        
+    }
+    .navegador{
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        padding: 0 0 0 20px ;}
+  
+.navfooter2 li{
+    color: rgb(95, 96, 97);
+    font-weight: bold;
+    font-size: 10px;
+    width: 60%;
+ }
+
+ .navfooter img{
+    width: 300px;
+    
+    }
+  
+    .patrocinadores2 img {
+
+        width: 500px;
+    }
+    
+  
+    }
+
+
+    
+    .iconos img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        padding: 2px 20px 0 0 ;
+    width: 100px;
+    
+    
+    }
+    
+
+    .textodefooter p {font-size: 20px;}
+
+
+
+
+
+
+
+    
+@media screen and (max-width:426px) {
+
+    .logoarribaderedes img {
+        width: 200px;
+        display: flex;
+        align-items: center;
+        }
+        
+
+    .logo-en img{
+        width: 400px;
+    }
+
+.parrafo{font-size: 15px;
+text-align: center;}
+
+      .memo{height: 230px;} 
+        
+    .logo img {
+        padding: 6px 0 0 20px;
+        width: 180px; 
+      }
+    
+      .navegador a{
+        color: rgb(0, 183, 255);
+        font-weight: bold;
+        font-size: 8px;
+        text-decoration: none;
+        width: 60%;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        top: 0;
+        
+    }
+
+    
+    .navegador{
+        padding: 0 20px 0 0;
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width: 50%;
+    }
+    
+    .patrocinadores {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 180px 0 10px 0;
+    }
+
+    .boton-un a{
+        display: inline-block;
+        background-color: rgb(231, 7, 201);
+        color: azure;
+        padding: 6px 20px;
+        text-decoration: none;
+        border-radius: 30px;
+        font-size: 15px;
+        box-shadow: 0px 0 10px 10px rgba(225, 78, 193, 0.7);
+    
+    }
+
+    .volver a{
+        display: inline-block;
+        background-color: rgb(231, 7, 201);
+        color: azure;
+        padding: 6px 20px;
+        text-decoration: none;
+        border-radius: 30px;
+        font-size: 15px;
+        box-shadow: 0px 0 10px 10px rgba(225, 78, 193, 0.7);
+       
+    }
+    .estereo-picnic figure{
+        display: flex;
+        justify-content: center ;
+       width: 350px;
+        margin-top: -90px;
+
+        }
+        
+        .iconos img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            padding: 2px 0 0 0px ;
+        width: 40px;
+        
+        
+        }
+        .textodefooter p {font-size: 10px;}
+        
+        .navfooter img{
+            width: 150px;
+            padding-left: 15px;
+            
+            }
+
+            .navfooter2 li{
+                color: rgb(95, 96, 97);
+                font-weight: bold;
+                font-size: 8px;
+                width: 60%;
+             }
+
+             .patrocinadores2 img {
+
+                width: 400px;
+            }
+
+        }
+
+
+
